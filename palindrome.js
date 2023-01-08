@@ -1,12 +1,12 @@
 let str="nrupul";
-let a=str.length-1;
-    for(let i=0;i<a/2;i++){
+let b=str.length-1;
+    for(let i=0;i<b/2;i++){
         let x=str[i];
-        let y=str[a-i];
+        let y=str[b-i];
     if(x!=y){
-            console.log("No");
+            console.log("Not a palindrome");
             break
         }else{
-            console.log("Yes")
+            console.log("it is palindrome")
         }break
     }

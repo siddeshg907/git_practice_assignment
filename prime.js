@@ -7,7 +7,7 @@ let a=0;
         }
     }
     if(a==2){
-        console.log("Yes");
+        console.log("It is prime number");
     }else{
-        console.log("No");
+        console.log("Not a prime number");
     }
